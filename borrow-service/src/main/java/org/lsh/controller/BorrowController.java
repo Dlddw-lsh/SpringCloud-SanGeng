@@ -1,6 +1,5 @@
 package org.lsh.controller;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.lsh.entity.UserBorrowDetail;
 import org.lsh.service.BorrowService;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +15,6 @@ public class BorrowController {
     @Resource
     BorrowService service;
 
-    @HystrixCommand(fallbackMethod = "onError")
     @RequestMapping("/borrow/{uid}")
     UserBorrowDetail findUserBorrows(@PathVariable("uid") int uid) {
         return service.getUserBorrowDetailByUid(uid);
