@@ -20,6 +20,7 @@
         <module>borrow-service</module>
         <module>commons</module>
         <module>eureka-server</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <properties>
         <java.version>17</java.version>

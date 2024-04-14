@@ -17,3 +17,9 @@ eureka:
 feign:
   circuit breaker:
     enabled: true # 开启feign的熔断机制
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
