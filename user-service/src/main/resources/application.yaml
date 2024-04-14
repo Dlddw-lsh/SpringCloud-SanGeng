@@ -1,8 +1,14 @@
 server:
   port: 8301
 spring:
+  application:
+    name: userService
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cloud-sangen
     username: root
     password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
