@@ -1,6 +1,6 @@
 package org.lsh.controller;
 
-import org.lsh.entity.Book;
+import com.lsh.entity.Book;
 import org.lsh.service.BookService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
