@@ -1,0 +1,290 @@
+2024-04-15 17:59:57,964 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-04-15 17:59:58,036 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-04-15 17:59:58,208 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-04-15 17:59:58,212 INFO The number of active nodes increment to 1.
+
+2024-04-15 17:59:59,216 INFO Starts FSMCaller successfully.
+
+2024-04-15 17:59:59,220 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-04-15 17:59:59,225 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,226 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> start vote and grant vote self, term=0.
+
+2024-04-15 17:59:59,240 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-04-15 17:59:59,243 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=14 ms
+
+2024-04-15 17:59:59,243 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> become leader of group, term=1, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,245 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-04-15 17:59:59,246 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 17:59:59,246 INFO Start the RaftGroupService successfully.
+
+2024-04-15 17:59:59,259 INFO The number of active nodes increment to 2.
+
+2024-04-15 17:59:59,263 INFO onLeaderStart: term=1.
+
+2024-04-15 17:59:59,301 INFO Starts FSMCaller successfully.
+
+2024-04-15 17:59:59,301 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-04-15 17:59:59,302 INFO Node <naming_instance_metadata/192.168.0.198:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,302 INFO Node <naming_instance_metadata/192.168.0.198:7848> start vote and grant vote self, term=0.
+
+2024-04-15 17:59:59,307 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-04-15 17:59:59,307 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=5 ms
+
+2024-04-15 17:59:59,307 INFO Node <naming_instance_metadata/192.168.0.198:7848> become leader of group, term=1, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,307 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 17:59:59,307 INFO Start the RaftGroupService successfully.
+
+2024-04-15 17:59:59,309 INFO Creating new channel to: 192.168.0.198:7848.
+
+2024-04-15 17:59:59,310 INFO onLeaderStart: term=1.
+
+2024-04-15 17:59:59,312 INFO The number of active nodes increment to 3.
+
+2024-04-15 17:59:59,335 INFO The channel 192.168.0.198:7848 is in state: CONNECTING.
+
+2024-04-15 17:59:59,352 INFO Starts FSMCaller successfully.
+
+2024-04-15 17:59:59,352 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-04-15 17:59:59,354 INFO Node <naming_service_metadata/192.168.0.198:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,354 INFO Node <naming_service_metadata/192.168.0.198:7848> start vote and grant vote self, term=0.
+
+2024-04-15 17:59:59,358 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-04-15 17:59:59,358 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=5 ms
+
+2024-04-15 17:59:59,358 INFO Node <naming_service_metadata/192.168.0.198:7848> become leader of group, term=1, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 17:59:59,358 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 17:59:59,358 INFO Start the RaftGroupService successfully.
+
+2024-04-15 17:59:59,360 INFO onLeaderStart: term=1.
+
+2024-04-15 17:59:59,466 INFO The channel 192.168.0.198:7848 is in state: READY.
+
+2024-04-15 17:59:59,466 INFO The channel 192.168.0.198:7848 has successfully established.
+
+2024-04-15 18:02:21,159 INFO Node <naming_service_metadata/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2024-04-15 18:02:21,160 INFO Fail to find the next candidate, group naming_service_metadata.
+
+2024-04-15 18:02:21,160 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2024-04-15 18:02:21,177 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-04-15 18:02:21,177 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=15 ms
+
+2024-04-15 18:02:21,177 INFO Shutting down FSMCaller...
+
+2024-04-15 18:02:21,177 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@1d940b5b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,177 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@5b62e927[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,177 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_service_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,177 INFO onShutdown.
+
+2024-04-15 18:02:21,177 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_service_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,177 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_service_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,178 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_service_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,178 INFO The number of active nodes decrement to 2.
+
+2024-04-15 18:02:21,178 INFO Node <naming_service_metadata/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2024-04-15 18:02:21,178 INFO Stop the RaftGroupService successfully.
+
+2024-04-15 18:02:21,178 INFO Node <naming_instance_metadata/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2024-04-15 18:02:21,178 INFO Fail to find the next candidate, group naming_instance_metadata.
+
+2024-04-15 18:02:21,178 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2024-04-15 18:02:21,185 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-04-15 18:02:21,185 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=7 ms
+
+2024-04-15 18:02:21,185 INFO Shutting down FSMCaller...
+
+2024-04-15 18:02:21,185 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@7d4b192a[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,186 INFO onShutdown.
+
+2024-04-15 18:02:21,186 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@7162e7f6[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,186 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_instance_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,186 INFO The number of active nodes decrement to 1.
+
+2024-04-15 18:02:21,186 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_instance_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,186 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_instance_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,186 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_instance_metadata/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,186 INFO Node <naming_instance_metadata/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2024-04-15 18:02:21,186 INFO Stop the RaftGroupService successfully.
+
+2024-04-15 18:02:21,186 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_LEADER.
+
+2024-04-15 18:02:21,187 INFO Fail to find the next candidate, group naming_persistent_service_v2.
+
+2024-04-15 18:02:21,187 INFO onLeaderStop: status=Status[ESHUTDOWN<1007>: Raft node is going to quit.].
+
+2024-04-15 18:02:21,188 INFO DB destroyed, the db path is: E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\log.
+
+2024-04-15 18:02:21,192 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-04-15 18:02:21,192 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.0.198:7848, cost time=6 ms
+
+2024-04-15 18:02:21,192 INFO Shutting down FSMCaller...
+
+2024-04-15 18:02:21,192 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@7a0d51ec[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,192 INFO ThreadPool is terminated: JRaft-Node-ScheduleThreadPool, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@2cb16c6b[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,192 INFO onShutdown.
+
+2024-04-15 18:02:21,192 INFO The number of active nodes decrement to 0.
+
+2024-04-15 18:02:21,193 INFO ThreadPool is terminated: JRaft-Global-ElectionTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@23082743[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2024-04-15 18:02:21,193 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-ElectionTimer-<naming_persistent_service_v2/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,194 INFO ThreadPool is terminated: JRaft-Global-VoteTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@24d17543[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3].
+
+2024-04-15 18:02:21,194 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=5000, name='JRaft-VoteTimer-<naming_persistent_service_v2/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,195 INFO ThreadPool is terminated: JRaft-Global-StepDownTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@140c66a4[Shutting down, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 168].
+
+2024-04-15 18:02:21,195 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=2500, name='JRaft-StepDownTimer-<naming_persistent_service_v2/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,196 INFO DB destroyed, the db path is: E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\log.
+
+2024-04-15 18:02:21,196 INFO ThreadPool is terminated: JRaft-Global-SnapshotTimer, com.alipay.sofa.jraft.util.MetricScheduledThreadPoolExecutor@5a1ede56[Shutting down, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0].
+
+2024-04-15 18:02:21,196 INFO Destroy timer: RepeatedTimer{timeout=null, stopped=true, running=false, destroyed=true, invoking=false, timeoutMs=1800000, name='JRaft-SnapshotTimer-<naming_persistent_service_v2/192.168.0.198:7848>'}.
+
+2024-04-15 18:02:21,196 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> shutdown, currTerm=1 state=STATE_SHUTTING.
+
+2024-04-15 18:02:21,196 INFO Stop the RaftGroupService successfully.
+
+2024-04-15 18:02:21,196 INFO Shutdown managed channel: 192.168.0.198:7848, ManagedChannelOrphanWrapper{delegate=ManagedChannelImpl{logId=10, target=192.168.0.198:7848}}.
+
+2024-04-15 18:02:21,197 INFO The channel 192.168.0.198:7848 is in state: SHUTDOWN.
+
+2024-04-15 18:02:21,197 WARN This channel 192.168.0.198:7848 has started shutting down. Any new RPCs should fail immediately.
+
+2024-04-15 18:02:21,199 INFO Connection disconnected: /192.168.0.198:62977
+
+2024-04-15 18:02:21,202 INFO ThreadPool is terminated: JRaft-RPC-Processor, com.alipay.sofa.jraft.util.MetricThreadPoolExecutor@74c8480d[Shutting down, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 120].
+
+2024-04-15 18:02:21,203 INFO DB destroyed, the db path is: E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\log.
+
+2024-04-15 18:03:12,945 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-04-15 18:03:13,080 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-04-15 18:03:13,211 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-04-15 18:03:13,216 INFO The number of active nodes increment to 1.
+
+2024-04-15 18:03:13,429 INFO Starts FSMCaller successfully.
+
+2024-04-15 18:03:13,434 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-04-15 18:03:13,434 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-15 18:03:13,439 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,440 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> start vote and grant vote self, term=1.
+
+2024-04-15 18:03:13,456 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-04-15 18:03:13,459 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=192.168.0.198:7848, cost time=15 ms
+
+2024-04-15 18:03:13,459 INFO Node <naming_persistent_service_v2/192.168.0.198:7848> become leader of group, term=2, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,460 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-04-15 18:03:13,462 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 18:03:13,462 INFO Start the RaftGroupService successfully.
+
+2024-04-15 18:03:13,479 INFO The number of active nodes increment to 2.
+
+2024-04-15 18:03:13,483 INFO onLeaderStart: term=2.
+
+2024-04-15 18:03:13,530 INFO Starts FSMCaller successfully.
+
+2024-04-15 18:03:13,531 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-04-15 18:03:13,531 INFO Node <naming_instance_metadata/192.168.0.198:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-15 18:03:13,531 INFO Node <naming_instance_metadata/192.168.0.198:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,532 INFO Node <naming_instance_metadata/192.168.0.198:7848> start vote and grant vote self, term=1.
+
+2024-04-15 18:03:13,537 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-04-15 18:03:13,537 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=192.168.0.198:7848, cost time=5 ms
+
+2024-04-15 18:03:13,538 INFO Node <naming_instance_metadata/192.168.0.198:7848> become leader of group, term=2, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,538 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 18:03:13,538 INFO Start the RaftGroupService successfully.
+
+2024-04-15 18:03:13,540 INFO onLeaderStart: term=2.
+
+2024-04-15 18:03:13,540 INFO The number of active nodes increment to 3.
+
+2024-04-15 18:03:13,544 INFO Creating new channel to: 192.168.0.198:7848.
+
+2024-04-15 18:03:13,577 INFO The channel 192.168.0.198:7848 is in state: CONNECTING.
+
+2024-04-15 18:03:13,587 INFO Starts FSMCaller successfully.
+
+2024-04-15 18:03:13,587 WARN No data for snapshot reader E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-04-15 18:03:13,587 INFO Node <naming_service_metadata/192.168.0.198:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-15 18:03:13,588 INFO Node <naming_service_metadata/192.168.0.198:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,588 INFO Node <naming_service_metadata/192.168.0.198:7848> start vote and grant vote self, term=1.
+
+2024-04-15 18:03:13,593 WARN Unable to fsync directory E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-04-15 18:03:13,593 INFO Save raft meta, path=E:\Code\SpringCloud-Sangeng\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=192.168.0.198:7848, cost time=4 ms
+
+2024-04-15 18:03:13,593 INFO Node <naming_service_metadata/192.168.0.198:7848> become leader of group, term=2, conf=192.168.0.198:7848, oldConf=.
+
+2024-04-15 18:03:13,593 WARN RPC server is not started in RaftGroupService.
+
+2024-04-15 18:03:13,593 INFO Start the RaftGroupService successfully.
+
+2024-04-15 18:03:13,595 INFO onLeaderStart: term=2.
+
+2024-04-15 18:03:13,762 INFO The channel 192.168.0.198:7848 is in state: READY.
+
+2024-04-15 18:03:13,762 INFO The channel 192.168.0.198:7848 has successfully established.
+
