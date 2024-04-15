@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      # 即文件名称
+      name: bookService
+      # 配置服务器的地址
+      uri: https://github.com/Dlddw-lsh/ConfigCenter-SanGeng.git
+      # 环境
+      profile: dev
+      # 分支
+      label: master
