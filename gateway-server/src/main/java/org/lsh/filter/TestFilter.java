@@ -2,6 +2,7 @@ package org.lsh.filter;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
+import org.springframework.core.Ordered;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
@@ -10,7 +11,7 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @Component
-public class TestFilter implements GlobalFilter {
+public class TestFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         //先获取ServerHttpRequest对象，注意不是HttpServletRequest
@@ -27,5 +28,10 @@ public class TestFilter implements GlobalFilter {
             //直接在这里不再向下传递，然后返回响应
             return exchange.getResponse().setComplete();
         }
+    }
+    // 给全局过滤器配置顺序，值越小级别越高，越先执行
+    @Override
+    public int getOrder() {
+        return 0;
     }
 }
