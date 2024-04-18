@@ -1,12 +1,12 @@
 package org.lsh.controller;
 
+import jakarta.annotation.Resource;
 import org.lsh.entity.UserBorrowDetail;
 import org.lsh.service.BorrowService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 
 @RestController
 public class BorrowController {

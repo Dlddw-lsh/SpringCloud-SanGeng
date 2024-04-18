@@ -1,9 +1,14 @@
 server:
   port: 8101
-
 spring:
+  application:
+    name: bookService
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cloud-sangen
     username: root
     password: root
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -1,12 +1,12 @@
 package org.lsh.controller;
 
 import com.lsh.entity.Book;
+import jakarta.annotation.Resource;
 import org.lsh.service.BookService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.annotation.Resource;
 
 @RestController
 public class BookController {

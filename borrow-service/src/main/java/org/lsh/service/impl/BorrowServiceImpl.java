@@ -3,13 +3,13 @@ package org.lsh.service.impl;
 import com.lsh.entity.Book;
 import com.lsh.entity.Borrow;
 import com.lsh.entity.User;
+import jakarta.annotation.Resource;
 import org.lsh.entity.UserBorrowDetail;
 import org.lsh.mapper.BorrowMapper;
 import org.lsh.service.BorrowService;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import javax.annotation.Resource;
 import java.util.List;
 import java.util.stream.Collectors;
 
