@@ -1,5 +1,5 @@
 server:
-  port: 8201
+  port: 8301
 
 spring:
   application:
@@ -12,3 +12,6 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848
+      discovery:
+        # 修改为非临时实例
+        ephemeral: false

@@ -16,6 +16,7 @@ public class BookController {
 
     @RequestMapping("/book/{bid}")
     Book findBookById(@PathVariable("bid") int bid){
+        System.out.println("bookService");
         return service.getBookById(bid);
     }
 }
