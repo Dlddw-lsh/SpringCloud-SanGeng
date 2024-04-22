@@ -11,7 +11,11 @@ spring:
     password: root
   cloud:
     nacos:
-      server-addr: localhost:8848
       discovery:
+        server-addr: localhost:8848
         # 修改为非临时实例
         ephemeral: false
+        cluster-name: chengdu
+    loadbalancer:
+      nacos:
+        enabled: true
