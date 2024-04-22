@@ -2,20 +2,13 @@ server:
   port: 8301
 
 spring:
-  application:
-    name: borrowService
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud-sangen
-    username: root
-    password: root
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
-        # 修改为非临时实例
-        ephemeral: false
         cluster-name: chengdu
+        # 修改为非临时实例 这里如果是非临时实例就开不了配置中心
+        ephemeral: false
     loadbalancer:
       nacos:
         enabled: true
