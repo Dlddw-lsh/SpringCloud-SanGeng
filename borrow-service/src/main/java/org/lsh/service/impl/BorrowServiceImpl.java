@@ -1,5 +1,6 @@
 package org.lsh.service.impl;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.lsh.entity.Book;
 import com.lsh.entity.Borrow;
 import com.lsh.entity.User;
@@ -28,6 +29,7 @@ public class BorrowServiceImpl implements BorrowService {
     BookClient bookClient;
 
     @Override
+    @SentinelResource("getUserDetail")
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
         //这里通过调用getForObject来请求其他服务，并将结果自动进行封装
