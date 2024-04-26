@@ -13,6 +13,8 @@ spring:
       transport:
         dashboard: localhost:8858
       web-context-unify: false
+      # 出现限流，调用/blocked方法
+      block-page: /blocked
     loadbalancer:
       nacos:
         enabled: true

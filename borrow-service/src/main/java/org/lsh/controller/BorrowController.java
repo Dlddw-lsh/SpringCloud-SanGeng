@@ -1,5 +1,6 @@
 package org.lsh.controller;
 
+import com.lsh.entity.Result;
 import jakarta.annotation.Resource;
 import org.lsh.entity.UserBorrowDetail;
 import org.lsh.service.BorrowService;
@@ -17,5 +18,10 @@ public class BorrowController {
     @RequestMapping("/borrow/{uid}")
     UserBorrowDetail findUserBorrows(@PathVariable("uid") int uid) {
         return service.getUserBorrowDetailByUid(uid);
+    }
+
+    @RequestMapping("/blocked")
+    public Result<String> blocked(){
+        return Result.ok("请求频率过快");
     }
 }
