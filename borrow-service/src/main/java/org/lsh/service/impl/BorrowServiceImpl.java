@@ -30,8 +30,6 @@ public class BorrowServiceImpl implements BorrowService {
     @Override
     public UserBorrowDetail getUserBorrowDetailByUid(int uid) {
         List<Borrow> borrow = mapper.getBorrowsByUid(uid);
-        //RestTemplate支持多种方式的远程调用
-        RestTemplate template = new RestTemplate();
         //获取User信息
         User user = userClient.findUserById(uid);
         //获取每一本书的详细信息
