@@ -9,9 +9,14 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8858
+        # 这个配置的意思是说根据不同的URL进行链路限流，否则没有效果
       web-context-unify: false
       # 出现限流，调用/blocked方法
       block-page: /blocked
     loadbalancer:
       nacos:
         enabled: true
+feign:
+  sentinel:
+    # 开启服务降级支持
+    enabled: true
