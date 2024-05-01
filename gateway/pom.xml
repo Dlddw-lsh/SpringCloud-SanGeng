@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>org.lsh</groupId>
-    <artifactId>user-service</artifactId>
+    <artifactId>gateway</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -19,21 +19,18 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
+        <!-- 这里需要单独导入LoadBalancer依赖 -->
         <dependency>
-            <groupId>org.lsh</groupId>
-            <artifactId>commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+            <version>4.1.1</version>
         </dependency>
     </dependencies>
 </project>

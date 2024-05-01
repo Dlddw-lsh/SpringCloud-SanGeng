@@ -12,6 +12,3 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848
-  data:
-    redis:
-      host: localhost

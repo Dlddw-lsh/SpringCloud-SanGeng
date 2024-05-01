@@ -1,0 +1,18 @@
+server:
+  port: 8600
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    gateway:
+      routes:
+        - id: borrowService
+          uri: lb://borrowService
+          predicates:
+            - Path=/borrow/**
+        - id: userService
+          uri: lb://userService
+          predicates:
+            - Path=/user/**
