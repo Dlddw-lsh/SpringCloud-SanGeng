@@ -8,6 +8,7 @@ import org.lsh.entity.UserBorrowDetail;
 import org.lsh.service.BorrowService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
@@ -37,6 +38,14 @@ public class BorrowController {
             exceptionsToIgnore = IOException.class)
     public String test() {
         throw new RuntimeException("Hello World");
+    }
+
+    @RequestMapping("/test2")
+    @SentinelResource("test2")
+    String findUserBorrow2(@RequestParam(value = "a", required = false) String a,
+                           @RequestParam(value = "b", required = false) String b,
+                           @RequestParam(value = "c", required = false) String c) {
+        return "请求成功：" + "a=" + a + ",b=" + b + ",c=" + c;
     }
 
     // 替代方法名必须和原方法参数一致，最后可以添加一个Throwable作为参数接收异常

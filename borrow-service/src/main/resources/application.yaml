@@ -6,9 +6,6 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-        cluster-name: chengdu
-        # 修改为非临时实例 这里如果是非临时实例就开不了配置中心
-        ephemeral: false
     sentinel:
       transport:
         dashboard: localhost:8858
